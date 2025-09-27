@@ -1,6 +1,33 @@
-.card{
-  box-shadow: 4px 4px 6px rgba(0,0,0,0.2);
-  width:200px;
-  height:200px;
-  position: fixed;
+
+.droppable{
+  background-color:bisque;
+  height:fit-content;
+  width:300px;
+}
+
+.main-container {
+  display: flex;           /* Enable flexbox layout */
+
+}
+
+.DropDown {
+  padding-left:20px;
+  width:30vw;
+  background-color:aliceblue;
+  border-radius:30px;
+  height:100vh;
+}
+
+.lists-container {
+  display: flex;
+  flex-wrap:wrap;
+  align-content: flex-start;
+}
+.list-wrapper{
+  height:fit-content;
+}
+
+body{
+
+  background-color:rgb(52, 73, 84);
 }
